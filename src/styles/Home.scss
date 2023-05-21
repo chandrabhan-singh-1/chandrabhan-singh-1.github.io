@@ -19,10 +19,11 @@
 		>h1 {
 			font: 400 3rem $text1;
 			color: $first;
+			margin: 1rem 2rem;
 		}
 
 		>p {
-			font: 900 1rem $text1;
+			font: 900 1rem $text2;
 			color: $first;
 		}
 	}
@@ -32,8 +33,9 @@
 		width: 100%;
 		height: 100%;
 		position: absolute;
-		background: no-repeat center/auto url("../assets/1.png");
-		filter: blur(1px);
+		background: no-repeat url("../assets/7.jpg");
+		background-size: cover;
+		filter: hue-rotate(290deg);
 		border-radius: 0px 0px 200px 200px;
 	}
 }
